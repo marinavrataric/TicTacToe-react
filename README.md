@@ -1,8 +1,3 @@
-<img width="858" alt="tictactoe1" src="https://user-images.githubusercontent.com/21130451/71371554-d4ed9300-25b1-11ea-9875-a556453a329d.PNG">
-<img width="548" alt="turnon" src="https://user-images.githubusercontent.com/21130451/71371557-d6b75680-25b1-11ea-9c78-d839fb4bc09e.PNG">
-<img width="568" alt="winner" src="https://user-images.githubusercontent.com/21130451/71371651-24cc5a00-25b2-11ea-827f-0aa762d87d4f.PNG">
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
