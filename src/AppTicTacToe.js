@@ -28,13 +28,19 @@ class AppTicTacToe extends Component {
         grid.forEach( grid => {
             if (e.target.value === grid.value && grid.innerHTML === '') 
             {
+                if (this.state.value == 'X') {
+                    grid.style.color = 'rgb(194, 15, 15)'
+                } else {
+                    grid.style.color = 'rgb(85, 34, 109)'
+                }
+
                 this.setState(prevState => {
                     prevState.value === 'X' ? prevState.value = 'O' : prevState.value = 'X'
                     return {
                         value: prevState.value
                     }
                 })
-                if(this.state.player1 != '' && this.state.player2 != '') {
+                if (this.state.player1 != '' && this.state.player2 != '') {
                     grid.innerHTML = this.state.value
                 } else {
                     grid.innerHTML = ''

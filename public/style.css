@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(134, 50, 173); 
+    background-color: rgb(85, 34, 109); 
     margin: 0;
     font-family: 'Montserrat';
 }
@@ -39,6 +39,7 @@ body{
     border: solid 0.5px rgb(61, 60, 60);
     float: left;
     font-size: 55px;
+    font-family: 'Montserrat';
     cursor: pointer;
 }
 
@@ -50,7 +51,7 @@ body{
     margin-top: 35px;
     background-color: yellow;
     border: none;
-    color: rgb(44, 44, 44);
+    color: rgb(26, 24, 24);
     font-size: 15px;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -67,8 +68,8 @@ h3{
 }
 
 input{
-    padding: 7px 2px;
-    width: 99%;
+    padding: 9px 4px;
+    width: 96%;
     margin: 3px 0;
     border: none;
 }
